@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BILLING PAGE"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/tv_bp"
+        />
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="Customer Number"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:id="@+id/et_cnqq"
+        />
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:id="@+id/et_Addbqq"
+        />
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="Mobile number"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:id="@+id/et_mnobqq"
+        />
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="Product details"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:id="@+id/et_pdqq"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Submit"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="155dp"
+        android:id="@+id/btn_submitBqq"
+        android:background="#ffffff"
+        android:textColor="#BC85A3"/>
+</LinearLayout>

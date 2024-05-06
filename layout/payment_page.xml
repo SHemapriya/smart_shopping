@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+        >
+
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payment Mode"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_payment"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Phone Pay"
+                android:background="#ffffff"
+                android:textColor="#4D0761"
+                android:id="@+id/btn_phonepay"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Google Pay"
+                android:background="#ffffff"
+                android:textColor="#4D0761"
+                android:id="@+id/btn_Gpay"/>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>
